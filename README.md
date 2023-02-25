@@ -1,8 +1,7 @@
 # TheBigDay
+DEMO: https://www.youtube.com/watch?v=VlCNrtOpY6M 
 
-https://www.youtube.com/watch?v=VlCNrtOpY6M 
-
-Weeding Owner Pages 
+Wedding Owner Pages 
 
 
 ![1](https://user-images.githubusercontent.com/83309686/221369616-56fb28c4-e81a-4dfd-b860-109766eccb33.png)
@@ -21,7 +20,6 @@ Weeding Owner Pages
 ![9](https://user-images.githubusercontent.com/83309686/221369684-6b1c7fa3-d07c-4ac8-835f-f6b10a251732.png)
 
 Guest Pages
-
 
 
 ![10](https://user-images.githubusercontent.com/83309686/221369695-47b48bac-37f8-4ceb-b821-4ce029a20af9.png)
