@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InvitedWeddingDetail"
+    android:orientation="vertical"
+    android:background="@drawable/w">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="70dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/coupleName"
+        android:textColor="@color/black"
+        android:fontFamily="@font/dancingscript_variablefont_wght"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/black"
+        android:id="@+id/place"
+        android:fontFamily="@font/mavenpro_variablefont_wght"
+        ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/mavenpro_variablefont_wght"
+        android:id="@+id/date"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/mavenpro_variablefont_wght"
+        android:id="@+id/hour"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My participation status: "
+        android:layout_gravity="center"
+        android:textSize="27dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/mavenpro_variablefont_wght"
+        android:layout_marginTop="100dp"></TextView>
+    <RadioGroup
+        android:id="@+id/radioGroup2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+
+        >
+        <!--adding a radio button -->
+        <RadioButton
+            android:id="@+id/willJoin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:padding="4dp"
+            android:text="I will join"
+            android:fontFamily="@font/mavenpro_variablefont_wght"
+            android:textSize="22sp"
+            android:layout_marginRight="50dp" />
+
+        <!--adding a radio button -->
+        <RadioButton
+            android:id="@+id/cantJoin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:padding="4dp"
+            android:text="I can't join"
+            android:fontFamily="@font/mavenpro_variablefont_wght"
+            android:textAlignment="center"
+            android:textSize="22sp" />
+
+    </RadioGroup>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/section2">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Participation status: "
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:fontFamily="@font/mavenpro_variablefont_wght"
+        android:textSize="27dp"
+        android:layout_marginTop="100dp"></TextView>
+    <RadioGroup
+        android:id="@+id/radioGroup3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        >
+        <!--adding a radio button -->
+        <RadioButton
+            android:id="@+id/one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:padding="4dp"
+            android:text="Single"
+            android:fontFamily="@font/mavenpro_variablefont_wght"
+            android:textSize="22sp"
+            android:layout_marginRight="50dp" />
+
+        <!--adding a radio button -->
+        <RadioButton
+            android:id="@+id/two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:padding="4dp"
+            android:fontFamily="@font/mavenpro_variablefont_wght"
+            android:text="With Partner"
+            android:textAlignment="center"
+            android:textSize="22sp" />
+
+    </RadioGroup>
+
+
+</LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:textColor="@color/white"
+        android:background="@drawable/button_bg"
+        android:id="@+id/detailSave"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/mavenpro_variablefont_wght"
+        android:layout_marginTop="30dp"></androidx.appcompat.widget.AppCompatButton>
+
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="horizontal"
+    android:background="@drawable/denem3"
+
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"   android:layout_marginTop="130dp">
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_gravity="center"
+        android:id="@+id/btnOwner"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button_bg"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="I am a Wedding Owner"
+        android:layout_margin="5dp"
+
+        android:fontFamily="@font/mavenpro_variablefont_wght"
+
+        ></androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_gravity="center"
+        android:id="@+id/btnGuest"
+        android:text="I am a Guest"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button_bg"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_margin="5dp"
+        android:fontFamily="@font/mavenpro_variablefont_wght"
+
+        ></androidx.appcompat.widget.AppCompatButton>
+
+
+        ></LinearLayout>
+
+
+
+
+</LinearLayout>
