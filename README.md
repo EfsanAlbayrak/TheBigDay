@@ -1,4 +1,4 @@
-# TheBigDay
+# The Big Day Application
 DEMO: https://www.youtube.com/watch?v=VlCNrtOpY6M 
 
 Wedding Owner Pages 
